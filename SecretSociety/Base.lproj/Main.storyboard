@@ -63,10 +63,14 @@
                                     <action selector="login" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ln-lb-hsQ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="700" image="stanford" translatesAutoresizingMaskIntoConstraints="NO" id="tda-W3-Iox">
+                                <rect key="frame" x="16" y="142" width="394" height="438"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="I2u-5T-DKf" firstAttribute="width" secondItem="UXQ-52-XzJ" secondAttribute="width" id="256-qs-1We"/>
+                            <constraint firstItem="tda-W3-Iox" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2LP-Vg-Znc"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="leading" secondItem="rgO-US-ssa" secondAttribute="trailing" constant="8" symbolic="YES" id="4lK-Yg-5Lm"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="top" secondItem="1WU-hO-9bw" secondAttribute="bottom" constant="8" symbolic="YES" id="6Xg-MT-cbO"/>
                             <constraint firstItem="Kff-mE-Ql2" firstAttribute="top" secondItem="JAa-kU-3yO" secondAttribute="bottom" constant="8" symbolic="YES" id="7ck-DK-4Lk"/>
@@ -78,7 +82,9 @@
                             <constraint firstItem="I2u-5T-DKf" firstAttribute="bottom" secondItem="wBY-Cw-dDJ" secondAttribute="bottom" id="JUG-fL-Btk"/>
                             <constraint firstItem="UXQ-52-XzJ" firstAttribute="leading" secondItem="Kff-mE-Ql2" secondAttribute="trailing" constant="8" symbolic="YES" id="Jdn-Pg-mdg"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jsc-FG-XbO"/>
+                            <constraint firstItem="tda-W3-Iox" firstAttribute="top" secondItem="Kff-mE-Ql2" secondAttribute="bottom" constant="8" symbolic="YES" id="KNn-d8-piB"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KQd-hP-1o5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tda-W3-Iox" secondAttribute="bottom" constant="20" id="Lrg-6h-JqK"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="baseline" secondItem="rgO-US-ssa" secondAttribute="baseline" id="P3c-bb-qJb"/>
                             <constraint firstItem="UXQ-52-XzJ" firstAttribute="bottom" secondItem="Kff-mE-Ql2" secondAttribute="bottom" id="P8W-H8-Tud"/>
                             <constraint firstItem="I2u-5T-DKf" firstAttribute="top" secondItem="wBY-Cw-dDJ" secondAttribute="top" id="SlN-QI-PQ5"/>
@@ -102,4 +108,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="stanford" width="394" height="589"/>
+    </resources>
 </document>
