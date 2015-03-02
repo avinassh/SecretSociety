@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     
     var secure: Bool = false { didSet { updateUI() } }
     
+    // model
+    var loggedInUser: User? { didSet { updateUI() } }
+    
     private func updateUI() {
         passwordField.secureTextEntry = secure
         passwordLabel.text = secure ? "Secured Password" : "Password"
@@ -26,6 +29,10 @@ class ViewController: UIViewController {
         secure = !secure
     }
     
+    @IBAction func login() {
+        loggedInUser = User.login(usernameField.text ?? "", password:
+            passwordField.text ?? "")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
