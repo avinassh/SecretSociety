@@ -65,16 +65,16 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="200" verticalCompressionResistancePriority="700" image="stanford" translatesAutoresizingMaskIntoConstraints="NO" id="tda-W3-Iox">
-                                <rect key="frame" x="16" y="142" width="394" height="438"/>
+                                <rect key="frame" x="16" y="142" width="485" height="438"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fB8-Zf-rjZ">
-                                <rect key="frame" x="418" y="340" width="46" height="21"/>
+                                <rect key="frame" x="509" y="340" width="75" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5i-YN-pDy">
-                                <rect key="frame" x="418" y="369" width="75" height="21"/>
+                                <rect key="frame" x="509" y="369" width="75" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -84,6 +84,7 @@
                         <constraints>
                             <constraint firstItem="I2u-5T-DKf" firstAttribute="width" secondItem="UXQ-52-XzJ" secondAttribute="width" id="256-qs-1We"/>
                             <constraint firstItem="tda-W3-Iox" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2LP-Vg-Znc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="s5i-YN-pDy" secondAttribute="trailing" id="2S3-Yh-ZPv"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="leading" secondItem="rgO-US-ssa" secondAttribute="trailing" constant="8" symbolic="YES" id="4lK-Yg-5Lm"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="top" secondItem="1WU-hO-9bw" secondAttribute="bottom" constant="8" symbolic="YES" id="6Xg-MT-cbO"/>
                             <constraint firstItem="Kff-mE-Ql2" firstAttribute="top" secondItem="JAa-kU-3yO" secondAttribute="bottom" constant="8" symbolic="YES" id="7ck-DK-4Lk"/>
@@ -105,6 +106,7 @@
                             <constraint firstItem="tda-W3-Iox" firstAttribute="centerY" secondItem="fB8-Zf-rjZ" secondAttribute="bottom" id="TUJ-Ky-3zi"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Tup-Tc-hMW"/>
                             <constraint firstItem="s5i-YN-pDy" firstAttribute="top" secondItem="fB8-Zf-rjZ" secondAttribute="bottom" constant="8" symbolic="YES" id="XEk-49-fEA"/>
+                            <constraint firstItem="fB8-Zf-rjZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="a6R-nT-qva"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="leading" secondItem="HyX-JQ-8SM" secondAttribute="trailing" constant="8" symbolic="YES" id="bZE-SJ-vnV"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="d3d-Uo-irv"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="dPG-91-mAj"/>
