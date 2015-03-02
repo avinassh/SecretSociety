@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -66,6 +67,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="700" image="stanford" translatesAutoresizingMaskIntoConstraints="NO" id="tda-W3-Iox">
                                 <rect key="frame" x="16" y="142" width="394" height="438"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fB8-Zf-rjZ">
+                                <rect key="frame" x="418" y="340" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5i-YN-pDy">
+                                <rect key="frame" x="418" y="369" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -76,6 +89,7 @@
                             <constraint firstItem="Kff-mE-Ql2" firstAttribute="top" secondItem="JAa-kU-3yO" secondAttribute="bottom" constant="8" symbolic="YES" id="7ck-DK-4Lk"/>
                             <constraint firstItem="wBY-Cw-dDJ" firstAttribute="top" secondItem="JAa-kU-3yO" secondAttribute="bottom" constant="8" symbolic="YES" id="C44-0y-FzB"/>
                             <constraint firstItem="Kff-mE-Ql2" firstAttribute="leading" secondItem="wBY-Cw-dDJ" secondAttribute="trailing" constant="88" id="Cdv-Wn-jUf"/>
+                            <constraint firstItem="s5i-YN-pDy" firstAttribute="leading" secondItem="fB8-Zf-rjZ" secondAttribute="leading" id="ChX-t0-4o8"/>
                             <constraint firstItem="wBY-Cw-dDJ" firstAttribute="leading" secondItem="I2u-5T-DKf" secondAttribute="trailing" constant="8" symbolic="YES" id="FWS-XK-ejy"/>
                             <constraint firstItem="HyX-JQ-8SM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HXF-l4-w9p"/>
                             <constraint firstItem="UXQ-52-XzJ" firstAttribute="top" secondItem="Kff-mE-Ql2" secondAttribute="top" id="J2J-df-bBu"/>
@@ -88,11 +102,14 @@
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="baseline" secondItem="rgO-US-ssa" secondAttribute="baseline" id="P3c-bb-qJb"/>
                             <constraint firstItem="UXQ-52-XzJ" firstAttribute="bottom" secondItem="Kff-mE-Ql2" secondAttribute="bottom" id="P8W-H8-Tud"/>
                             <constraint firstItem="I2u-5T-DKf" firstAttribute="top" secondItem="wBY-Cw-dDJ" secondAttribute="top" id="SlN-QI-PQ5"/>
+                            <constraint firstItem="tda-W3-Iox" firstAttribute="centerY" secondItem="fB8-Zf-rjZ" secondAttribute="bottom" id="TUJ-Ky-3zi"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Tup-Tc-hMW"/>
+                            <constraint firstItem="s5i-YN-pDy" firstAttribute="top" secondItem="fB8-Zf-rjZ" secondAttribute="bottom" constant="8" symbolic="YES" id="XEk-49-fEA"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="leading" secondItem="HyX-JQ-8SM" secondAttribute="trailing" constant="8" symbolic="YES" id="bZE-SJ-vnV"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="d3d-Uo-irv"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="dPG-91-mAj"/>
                             <constraint firstItem="I2u-5T-DKf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hAK-Cb-oKz"/>
+                            <constraint firstItem="fB8-Zf-rjZ" firstAttribute="leading" secondItem="tda-W3-Iox" secondAttribute="trailing" constant="8" symbolic="YES" id="hku-pH-vNJ"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="width" secondItem="HyX-JQ-8SM" secondAttribute="width" id="rtw-oI-Wtj"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="baseline" secondItem="HyX-JQ-8SM" secondAttribute="baseline" id="tfc-2h-Bzb"/>
                             <constraint firstItem="UXQ-52-XzJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vgp-1Y-k6o"/>
