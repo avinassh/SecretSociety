@@ -116,6 +116,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="companyLabel" destination="s5i-YN-pDy" id="zLo-s2-G89"/>
+                        <outlet property="imageView" destination="tda-W3-Iox" id="fXK-DH-fLe"/>
+                        <outlet property="nameLabel" destination="fB8-Zf-rjZ" id="48q-rG-aMo"/>
                         <outlet property="passwordField" destination="JAa-kU-3yO" id="d5d-Jh-dL5"/>
                         <outlet property="passwordLabel" destination="HyX-JQ-8SM" id="dGI-Ge-rj7"/>
                         <outlet property="usernameField" destination="1WU-hO-9bw" id="o9W-So-lIj"/>
