@@ -13,6 +13,7 @@
 		82C1F94F1AA4298300F6AC35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C1F94E1AA4298300F6AC35 /* Images.xcassets */; };
 		82C1F9521AA4298300F6AC35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C1F9501AA4298300F6AC35 /* LaunchScreen.xib */; };
 		82C1F95E1AA4298300F6AC35 /* SecretSocietyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1F95D1AA4298300F6AC35 /* SecretSocietyTests.swift */; };
+		82E573ED1AA4463700D1D75F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E573EC1AA4463700D1D75F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		82C1F9571AA4298300F6AC35 /* SecretSocietyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretSocietyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C1F95C1AA4298300F6AC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C1F95D1AA4298300F6AC35 /* SecretSocietyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSocietyTests.swift; sourceTree = "<group>"; };
+		82E573EC1AA4463700D1D75F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				82C1F9471AA4298300F6AC35 /* AppDelegate.swift */,
 				82C1F9491AA4298300F6AC35 /* ViewController.swift */,
+				82E573EC1AA4463700D1D75F /* User.swift */,
 				82C1F94B1AA4298300F6AC35 /* Main.storyboard */,
 				82C1F94E1AA4298300F6AC35 /* Images.xcassets */,
 				82C1F9501AA4298300F6AC35 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				82C1F94A1AA4298300F6AC35 /* ViewController.swift in Sources */,
 				82C1F9481AA4298300F6AC35 /* AppDelegate.swift in Sources */,
+				82E573ED1AA4463700D1D75F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				82C1F9631AA4298300F6AC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82C1F9641AA4298300F6AC35 /* Build configuration list for PBXNativeTarget "SecretSocietyTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				82C1F9661AA4298300F6AC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
