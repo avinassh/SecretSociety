@@ -39,21 +39,51 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBY-Cw-dDJ">
+                                <rect key="frame" x="180" y="104" width="114" height="30"/>
+                                <state key="normal" title="Change Security">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2u-5T-DKf">
+                                <rect key="frame" x="16" y="104" width="156" height="30"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UXQ-52-XzJ">
+                                <rect key="frame" x="428" y="104" width="156" height="30"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kff-mE-Ql2">
+                                <rect key="frame" x="382" y="104" width="38" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="I2u-5T-DKf" firstAttribute="width" secondItem="UXQ-52-XzJ" secondAttribute="width" id="256-qs-1We"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="leading" secondItem="rgO-US-ssa" secondAttribute="trailing" constant="8" symbolic="YES" id="4lK-Yg-5Lm"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="top" secondItem="1WU-hO-9bw" secondAttribute="bottom" constant="8" symbolic="YES" id="6Xg-MT-cbO"/>
+                            <constraint firstItem="Kff-mE-Ql2" firstAttribute="top" secondItem="JAa-kU-3yO" secondAttribute="bottom" constant="8" symbolic="YES" id="7ck-DK-4Lk"/>
+                            <constraint firstItem="wBY-Cw-dDJ" firstAttribute="top" secondItem="JAa-kU-3yO" secondAttribute="bottom" constant="8" symbolic="YES" id="C44-0y-FzB"/>
+                            <constraint firstItem="Kff-mE-Ql2" firstAttribute="leading" secondItem="wBY-Cw-dDJ" secondAttribute="trailing" constant="88" id="Cdv-Wn-jUf"/>
+                            <constraint firstItem="wBY-Cw-dDJ" firstAttribute="leading" secondItem="I2u-5T-DKf" secondAttribute="trailing" constant="8" symbolic="YES" id="FWS-XK-ejy"/>
                             <constraint firstItem="HyX-JQ-8SM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HXF-l4-w9p"/>
+                            <constraint firstItem="UXQ-52-XzJ" firstAttribute="top" secondItem="Kff-mE-Ql2" secondAttribute="top" id="J2J-df-bBu"/>
+                            <constraint firstItem="I2u-5T-DKf" firstAttribute="bottom" secondItem="wBY-Cw-dDJ" secondAttribute="bottom" id="JUG-fL-Btk"/>
+                            <constraint firstItem="UXQ-52-XzJ" firstAttribute="leading" secondItem="Kff-mE-Ql2" secondAttribute="trailing" constant="8" symbolic="YES" id="Jdn-Pg-mdg"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jsc-FG-XbO"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KQd-hP-1o5"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="baseline" secondItem="rgO-US-ssa" secondAttribute="baseline" id="P3c-bb-qJb"/>
+                            <constraint firstItem="UXQ-52-XzJ" firstAttribute="bottom" secondItem="Kff-mE-Ql2" secondAttribute="bottom" id="P8W-H8-Tud"/>
+                            <constraint firstItem="I2u-5T-DKf" firstAttribute="top" secondItem="wBY-Cw-dDJ" secondAttribute="top" id="SlN-QI-PQ5"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Tup-Tc-hMW"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="leading" secondItem="HyX-JQ-8SM" secondAttribute="trailing" constant="8" symbolic="YES" id="bZE-SJ-vnV"/>
                             <constraint firstItem="1WU-hO-9bw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="d3d-Uo-irv"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="dPG-91-mAj"/>
+                            <constraint firstItem="I2u-5T-DKf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hAK-Cb-oKz"/>
                             <constraint firstItem="rgO-US-ssa" firstAttribute="width" secondItem="HyX-JQ-8SM" secondAttribute="width" id="rtw-oI-Wtj"/>
                             <constraint firstItem="JAa-kU-3yO" firstAttribute="baseline" secondItem="HyX-JQ-8SM" secondAttribute="baseline" id="tfc-2h-Bzb"/>
+                            <constraint firstItem="UXQ-52-XzJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vgp-1Y-k6o"/>
                         </constraints>
                     </view>
                 </viewController>
